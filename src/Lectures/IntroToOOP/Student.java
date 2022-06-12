@@ -1,5 +1,4 @@
 package Lectures.IntroToOOP;
-
 public class Student {
     String name;
     String address;
