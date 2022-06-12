@@ -3,7 +3,7 @@ package Lectures.IntroToOOP;
 public class Main {
     public static void main(String[] args) {
         Student student = new Student();
-        student.name = "Sumit";
+        student.name = "Sumit Verma";
         student.address = "Delhi";
         student.state = "ACTIVE";
         student.pauseCourse();
