@@ -7,6 +7,7 @@ public class Main {
         student.address = "Delhi";
         student.state = "ACTIVE";
         student.pauseCourse();
+        student.Student();
         System.out.println("Do Something");
     }
 }
