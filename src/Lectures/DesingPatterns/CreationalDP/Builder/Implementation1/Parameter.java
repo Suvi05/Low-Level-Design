@@ -4,4 +4,6 @@ public class Parameter {
     public int mathsMarks;
     public int scienceMarks;
     public String name = "Your Name"; //Setting up Default Parameters
+
+
 }

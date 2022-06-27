@@ -52,6 +52,7 @@ public class UserExam {
         //
 
         public UserExam build() {
+
             //Step 1: Validation
             if (scienceMarks > 100 || mathsMarks > 100) {
                 System.out.println("Marks can't be greater than 100");
@@ -65,11 +66,15 @@ public class UserExam {
                 System.out.println("Name can't start with 0");
                 throw new InvalidParameterException("Name can't start with 0");
             }
+
             //Step 2: Create Parent's Object //Outer class's object- UserExam's Object
             UserExam userExam = new UserExam();
+
+            //Step 3: Copying Values from Builder Object to UserExam's Object
             userExam.scienceMarks = this.scienceMarks;
             userExam.mathsMarks = this.mathsMarks;
             userExam.name = this.name;
+
             return userExam;
         }
     }

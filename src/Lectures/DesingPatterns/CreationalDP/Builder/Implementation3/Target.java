@@ -63,6 +63,8 @@ public class Target { //Immutable Class
             }
             //Step 2: Create Parent's Object //Outer class's object- Target's Object
             Target target = new Target();
+
+            //Step 3: Copy values from Builder Object to Target Object
             target.scienceMarks = this.scienceMarks;
             target.mathsMarks = this.mathsMarks;
             target.name = this.name;

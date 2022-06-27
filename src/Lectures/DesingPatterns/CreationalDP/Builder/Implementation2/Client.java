@@ -3,6 +3,7 @@ package Lectures.DesingPatterns.CreationalDP.Builder.Implementation2;
 public class Client {
     public static void main(String[] args) {
         UserExam userExam;
+
         try {
             UserExam.Builder b = UserExam.getBuilder();
 
