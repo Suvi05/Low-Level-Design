@@ -2,7 +2,7 @@ package Lectures.DesingPatterns.StructuralDP.Adapter.Flipkart;
 
 import Lectures.DesingPatterns.StructuralDP.Adapter.RazorPay.RazorPayGateway;
 
-//Internally it will use RazorPay's class
+//Internally it will use RazorPay's functions
 public class RazorPayAdapter implements PaymentGateway {
 
     private RazorPayGateway razorPayGateway = new RazorPayGateway();

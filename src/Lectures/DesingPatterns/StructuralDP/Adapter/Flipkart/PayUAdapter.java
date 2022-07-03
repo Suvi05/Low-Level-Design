@@ -1,7 +1,6 @@
 package Lectures.DesingPatterns.StructuralDP.Adapter.Flipkart;
 
 import Lectures.DesingPatterns.StructuralDP.Adapter.PayU.PayUGateway;
-import Lectures.DesingPatterns.StructuralDP.Adapter.PayU.PayUPaymentStatus;
 
 public class PayUAdapter implements PaymentGateway {
 

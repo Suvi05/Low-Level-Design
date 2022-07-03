@@ -3,7 +3,7 @@ package Lectures.DesingPatterns.StructuralDP.Adapter.PayU;
 public class PayUGateway {
 
     public String makePaymentByCC(Long cc, Long cvv, String expiry) {
-        System.out.println("Payment done by PayU");
+        System.out.println("Payment method - PayU");
         return "222";
     }
 
